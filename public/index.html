@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./css/style.min.css">
+   <title>Washoo</title>
+</head>
+
+<body>
+   <header>
+      <span class="logo">Washoo</span>
+      <span class="menu" id="show-menu">
+         <svg id="Layer_1" style="enable-background:new 0 0 32 32;" version="1.1" viewBox="0 0 32 32"
+            xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <path
+               d="M4,10h24c1.104,0,2-0.896,2-2s-0.896-2-2-2H4C2.896,6,2,6.896,2,8S2.896,10,4,10z M28,14H4c-1.104,0-2,0.896-2,2  s0.896,2,2,2h24c1.104,0,2-0.896,2-2S29.104,14,28,14z M28,22H4c-1.104,0-2,0.896-2,2s0.896,2,2,2h24c1.104,0,2-0.896,2-2  S29.104,22,28,22z" />
+         </svg>
+      </span>
+   </header>
+
+   <div id="hidden-menu">
+      <span class="close">
+         <svg id="Layer_1" style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" width="512px"
+            xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <path
+               d="M437.5,386.6L306.9,256l130.6-130.6c14.1-14.1,14.1-36.8,0-50.9c-14.1-14.1-36.8-14.1-50.9,0L256,205.1L125.4,74.5  c-14.1-14.1-36.8-14.1-50.9,0c-14.1,14.1-14.1,36.8,0,50.9L205.1,256L74.5,386.6c-14.1,14.1-14.1,36.8,0,50.9  c14.1,14.1,36.8,14.1,50.9,0L256,306.9l130.6,130.6c14.1,14.1,36.8,14.1,50.9,0C451.5,423.4,451.5,400.6,437.5,386.6z" />
+         </svg>
+      </span>
+      <h2>Меню</h2>
+      <ul>
+         <li><a href="#">Главная</a></li>
+         <li><a href="#about-company">Про компанию</a></li>
+         <li><a href="#services">Услуги</a></li>
+      </ul>
+   </div>
+
+   <section class="full-page">
+      <div class="full-page__body">
+         <h1>Washoo - удобный сервис для всех и каждого</h1>
+         <h3>быстрый, легкий, удобный, инновационный</h3>
+         <button>Узнать больше <span><img src="./img/right_arrow_icon.svg" alt="icon arrow right"></span></button>
+      </div>
+   </section>
+
+   <section class="features" id="about-company">
+      <div class="features-container">
+         <div>
+            <img src="./img/216302_fast_forward_media_icon.png" alt="">
+            <h4>Быстрый</h4>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur, asperiores?</p>
+         </div>
+         <div>
+            <img src="./img/9044506_face_cool_icon.png" alt="">
+            <h4>Крутой</h4>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur, asperiores?</p>
+         </div>
+         <div>
+            <img src="./img/4265038_badge_guarantee_quality_ribbon_warranty_icon (1).png" alt="">
+            <h4>Легкий</h4>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur, asperiores?</p>
+         </div>
+      </div>
+   </section>
+
+   <section class="gallery">
+      <h2>Немного фотографий</h2>
+      <div id="slider">
+         <div><img src="https://i.pinimg.com/originals/7d/57/6c/7d576c3cfcdcf567f0db5e81f9a89214.gif" alt=""></div>
+         <div><img src="https://i.pinimg.com/originals/1e/68/4d/1e684d15ad21997f1a92adfae922cfe5.gif" alt=""></div>
+         <div><img src="https://i.pinimg.com/originals/83/28/1f/83281fe4bccb3a03cccadb27e24fa429.gif" alt=""></div>
+         <div><img src="https://i.pinimg.com/originals/ac/5b/16/ac5b1609d86356d86f028b307f839fb7.gif" alt=""></div>
+      </div>
+   </section>
+
+   <section class="bg-fixed" id="services">
+      <h3>Форма подписки</h3>
+      <input type="email" placeholder="Ваша почта">
+      <button>Подписаться<span><img src="./img/right_arrow_icon.svg" alt="icon arrow right"></span></button>
+   </section>
+
+   <footer>
+      <div class="up-btn">
+         <img class="arrow-up" src="./img/right_arrow_icon.svg" alt="icon up arrow">
+      </div>
+      <p>Все права защищены &copy;</p>
+      <div class="social">
+         <div>
+            <img class="social-link" src="./img/youtube_icon.svg" alt="icon youtube">
+         </div>
+         <div>
+            <img class="social-link" src="./img/facebook_icon.svg" alt="icon facebook">
+         </div>
+         <div>
+            <img class="social-link" src="./img/twitter_icon.svg" alt="icon twitter">
+         </div>
+      </div>
+   </footer>
+
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+   <script src="./js/slick.min.js"></script>
+   <script src="./js/index.min.js"></script>
+</body>
+
+</html>
